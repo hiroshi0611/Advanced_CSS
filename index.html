@@ -128,7 +128,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-tours">
+
+        <section class="section-tours" id="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular tours
@@ -163,7 +164,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$297</p>
                                 </div>
-                                <a href="#" class="btn btn--white btn--animated">Book now!</a>
+                                <a href="#popup" class="btn btn--white btn--animated">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +198,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$497</p>
                                 </div>
-                                <a href="#" class="btn btn--white btn--animated">Book now!</a>
+                                <a href="#popup" class="btn btn--white btn--animated">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +232,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$897</p>
                                 </div>
-                                <a href="#" class="btn btn--white btn--animated">Book now!</a>
+                                <a href="#popup" class="btn btn--white btn--animated">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -383,6 +384,27 @@
         </div>
 
     </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="/img/nat-8.jpg" alt="Tour pohot" class="popup__img">
+                <img src="/img/nat-9.jpg" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
+                    booking</h3>
+                <p class="popup__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quas vero consectetur rem est
+                    fugiat nemo ipsum iure. Expedita sunt fugit, illo dolores nulla accusantium totam dicta voluptate
+                    porro eaque.
+                </p>
+                <a href="#" class="btn btn--green">Book now</a>
+            </div>
+        </div>
+    </div>
     <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-1-of-2">
@@ -451,13 +473,14 @@
             </div> -->
 
 
-    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <!-- <script src="js/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000
+        });
+    </script> -->
 </body>
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 1000
-    });
-</script>
 
 </html>

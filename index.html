@@ -15,6 +15,26 @@
 </head>
 
 <body>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
         <div class="header__logo-box">
             <img class="header__logo" src="icon.png" alt="Logo">
@@ -298,11 +318,13 @@
                                 </h2>
                             </div>
                             <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Full Name" id="name" autocomplete="off" required>
+                                <input type="text" class="form__input" placeholder="Full Name" id="name"
+                                    autocomplete="off" required>
                                 <label for="name" class="form__label">Full Name</label>
                             </div>
                             <div class="form__group">
-                                <input type="email" class="form__input" placeholder="Email address" id="email" autocomplete="off" required>
+                                <input type="email" class="form__input" placeholder="Email address" id="email"
+                                    autocomplete="off" required>
                                 <label for="email" class="form__label">Email</label>
                             </div>
 
@@ -324,7 +346,7 @@
                             </div>
                             <div class="form__group">
                                 <button class="btn btn--green">
-                                    Next step &rarr; 
+                                    Next step &rarr;
                                 </button>
                             </div>
                         </form>
@@ -333,6 +355,34 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer__logo-box u-margin-bottom-big">
+            <img src="/img/logo-green-2x.png" alt="Full" class="footer__logo">
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__link">Company</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Contact us</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Privacy policy</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built my <a href="#" class="footer__link">Jonas Schmedtmann</a> for his online course <a href="#"
+                        class="footer__link">Advanced Css and Sass</a>.copyright &copy; Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Assumenda exercitationem eligendi commodi? Error, placeat commodi?
+                    Alias quo ex sunt, quisquam molestiae dolores asperiores sit iusto consectetur? Obcaecati nihil
+                    consequuntur libero.
+                </p>
+            </div>
+        </div>
+
+    </footer>
     <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-1-of-2">
@@ -400,7 +450,7 @@
                 </div>
             </div> -->
 
-    
+
     <script src="js/smooth-scroll.polyfills.min.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
